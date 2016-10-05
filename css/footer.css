@@ -14,7 +14,7 @@
  }
 
  footer .holder {
-     width: 70%;
+     width: 80%;
      margin: 0 auto;
  }
 
@@ -22,14 +22,18 @@
      width: 30%;
      position: relative;
      float: left;
-     padding-left : 30px;
-     margin : 20px 0;
-     font-size: 14px;
+     padding-left: 35px;
+     margin: 20px 0;
+     font-size: 15px;
      text-align: left;
  }
 
  footer .span3 > p {
      font-family: hel_c;
+ }
+
+ footer .span3 > p > span {
+     font-family: hel_b;
  }
 
  footer .l-more {
