@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
         menu: '#menu',
         anchors: ['firstPage', 'secondPage', '3rdPage'],
-        sectionsColor: ['#fff', '#fff', '#7E8F7C', '#1BBC9B', '#7E8F7C'],
+        sectionsColor: ['#fff', '#fff', '#FF6400', '#1BBC9B', '#7E8F7C'],
         autoScrolling: false
     });
 
