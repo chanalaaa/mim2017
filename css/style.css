@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 7da3aaf34a22eb472f74937149bda139a64cca25
 @font-face {
     font-family: 'hel_b';
     src: url('../fonts/HelveticaNeue-BoldCond.eot?#iefix') format('embedded-opentype'), url('../fonts/HelveticaNeue-BoldCond.otf') format('opentype'), url('../fonts/HelveticaNeue-BoldCond.woff') format('woff'), url('../fonts/HelveticaNeue-BoldCond.ttf') format('truetype'), url('../fonts/HelveticaNeue-BoldCond.svg#HelveticaNeue-BoldCond') format('svg');
@@ -171,9 +168,6 @@ a.btn-referral {
     border-radius: 30px;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 480px) {}
-=======
 p,a,span{
 	font-family: hel_c;
 }
@@ -269,4 +263,3 @@ p,a,span{
      background-color:orange;
  }
 }
->>>>>>> 7da3aaf34a22eb472f74937149bda139a64cca25
