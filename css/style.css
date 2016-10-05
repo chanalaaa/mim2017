@@ -49,17 +49,6 @@ a {
     text-decoration: none;
 }
 
-#section0 .img_line {
-    width: 25%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    pointer-events: none;
-}
-
 .section .img_line {
     width: 25%;
     height: 100%;
@@ -70,6 +59,16 @@ a {
     margin: auto;
     z-index: 99;
     pointer-events: none;
+}
+
+#section0 .img_line {
+    pointer-events: none;
+}
+
+#section2 .img_line {
+    width: 98.3%;
+    pointer-events: none;
+    margin: 0;
 }
 
 #section0 {
@@ -136,7 +135,14 @@ a {
     padding: 5px 10px;
     margin-top: -2px;
 }
-
+span.content-text.tab-green {
+    font-family: hel_bc;
+    display: inline-block;
+    background-color: #009F98;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: -2px;
+}
 a.btn-referral {
     font-family: hel_c;
     font-size: 20px;
@@ -169,7 +175,7 @@ a.btn-referral:hover {
 }
 
 .owl-next {
-    right: 0;
+    right: 13%;
 }
 
 .owl-prev {
@@ -211,7 +217,6 @@ a.btn-referral:hover {
     animation-duration: 300 ms;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-
 }
 
 .owl-animated-out {
@@ -224,4 +229,32 @@ a.btn-referral:hover {
 
 #section1 .owl-controls {
     top: 65%;
+}
+
+#section2 {
+    background-color: #FF6400;
+}
+
+#section2 .content_block {
+    width: 30%;
+    top: 70%;
+    left: 75%;
+}
+
+#section2 .owl-controls {
+    top: 70%;
+    left: 72%;
+}
+#section2 .content_slide{
+	width: 80%;
+}
+#section2 .owl-carousel .owl-item img.content_bg {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 27%;
+    left: 8%;
+    right: 0;
+    margin: 0;
+    z-index: -1;
 }
