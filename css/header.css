@@ -50,7 +50,7 @@ header {
 
 @media screen and (max-width: 500px) {
  header img {
-    max-width: 150px;
+    max-width: 175px;
  }
  header .btn_set {
      float: left;
