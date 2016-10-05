@@ -4,8 +4,8 @@ $(document).ready(function() {
 
     $('#fullpage').fullpage({
         menu: '#menu',
-        anchors: ['firstPage', 'secondPage', '3rdPage'],
-        sectionsColor: ['#fff', '#fff', '#FF6400', '#1BBC9B', '#7E8F7C'],
+        anchors: ['section', 'section02', 'section03','section04','section05'],
+        sectionsColor: ['#fff', '#fff', '#FF6400', '#000', '#7E8F7C'],
         autoScrolling: false
     });
 
