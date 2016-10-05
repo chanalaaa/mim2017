@@ -1,24 +1,49 @@
- h1{
-        font-size: 5em;
-        font-family: arial,helvetica;
-        color: #fff;
-        margin:0;
-    }
-    .intro p{
-        color: #fff;
-    }
-
-    /* Centered texts in each section
-    * --------------------------------------- */
-    .section{
-        text-align:center;
-    }
-
-
-    /* Bottom menu
-    * --------------------------------------- */
-    #infoMenu li a {
-        color: #fff;
-    }
-
-
+ h1 {
+     font-size: 5em;
+     font-family: arial, helvetica;
+     color: #fff;
+     margin: 0;
+ }
+ 
+ .intro p {
+     color: #fff;
+ }
+ 
+ .section {
+     text-align: center;
+ }
+ 
+ #infoMenu li a {
+     color: #fff;
+ }
+ a{
+ 	text-decoration: none;
+ }
+ 
+ header {
+     color: #fff;
+     background-color: #000;
+     padding: 10px 25px;
+     box-sizing: border-box;
+ }
+ 
+ header img {
+     width: 30%;
+     max-width: 350px;
+ }
+ 
+ header .btn_set {
+     float: right;
+     margin-top: 22px;
+ }
+ 
+ header .btn_set > a {
+     padding: 15px;
+     color: #fff;
+     background-color: orange;
+     text-transform: uppercase;
+ }
+ 
+ header .btn_set > a:first-child {
+     margin-right: 15px;
+ }
