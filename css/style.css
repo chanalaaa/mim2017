@@ -20,6 +20,153 @@
     font-style: normal;
 }
 
+p,
+a,
+span {
+    font-family: hel_c;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: arial, helvetica;
+    color: #fff;
+    margin: 0;
+}
+
+.intro p {
+    color: #fff;
+}
+
+.section {
+    text-align: center;
+    position: relative;
+}
+
+#infoMenu li a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    color: #fff;
+    background-color: #000;
+    padding: 10px 25px;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 30%;
+    max-width: 350px;
+}
+
+header .btn_set {
+    float: right;
+    margin-top: 22px;
+}
+
+header .btn_set > a {
+    padding: 15px;
+    color: #fff;
+    background-color: orange;
+    text-transform: uppercase;
+}
+
+header .btn_set > a:first-child {
+    margin-right: 15px;
+}
+
+.section .img_line {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#section0 {
+    background-color: #fff;
+}
+
+.owl-carousel,
+.owl-carousel .owl-stage-outer,
+.owl-carousel .owl-stage,
+.owl-carousel.owl-text-select-on .owl-item {
+    height: 100%;
+}
+
+.owl-carousel .owl-item img.content_bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.next,
+.prev {
+	position: absolute;
+   cursor: pointer;
+}
+
+.customNavigation {
+    position: absolute;
+    top: 0;
+}
+
+.content_slide {
+    color: #fff;
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.content-title {
+    font-family: hel_b;
+    font-size: 35px;
+    line-height: 30px;
+    color: #000;
+}
+
+.content-text {
+    font-family: hel_c;
+    font-size: 25px;
+    color: #666666;
+    margin-top: 15px;
+}
+
+.content-text.tab-green {
+    font-family: hel_bc;
+    display: inline-block;
+    background-color: #009F98;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: -2px;
+}
+
+a.btn-referral {
+    font-family: hel_c;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 40px;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #FF6400;
+    border-radius: 30px;
+}
 
 p,a,span{
 	font-family: hel_c;
