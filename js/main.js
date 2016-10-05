@@ -17,6 +17,7 @@ $(document).ready(function() {
         loop: true,
         margin: 10,
         nav: true,
+        navText: ["<img src='./images/left.png'>","<img src='./images/left.png'>"],
         mouseDrag: false,
         touchDrag: false,
         responsive: {
