@@ -66,14 +66,16 @@ a {
 }
 
 #section2 .img_line {
-    width: 98.3%;
+    width: 89.5%;
     pointer-events: none;
     margin: 0;
 }
 #section3 .img_line {
-    width: 98.3%;
+    width: 89.5%;
     pointer-events: none;
     margin: 0;
+    right : 6.1%;
+    left : inherit;
 }
 #section0 {
     background-color: #fff;
@@ -86,13 +88,22 @@ a {
     height: 100%;
 }
 
-.owl-carousel .owl-item img.content_bg {
+#section1 .owl-carousel .owl-item img.content_bg {
     width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: -1;
+}
+
+.owl-carousel .owl-item img.content_bg {
+    width: 80%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
     margin: auto;
     z-index: -1;
 }
@@ -102,12 +113,12 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    right: 0;
+    right: 50%;
     transform: translate(-50%, -50%);
 }
 
 .content_slide {
-    width: 90%;
+    width: 100%;
     display: inline-block;
     color: #fff;
     position: relative;
@@ -142,6 +153,7 @@ span.content-text.tab-green {
     display: inline-block;
     background-color: #009F98;
     color: #fff;
+    font-size: 19px;
     padding: 5px 10px;
     margin-top: -2px;
 }
@@ -189,8 +201,7 @@ a.btn-referral:hover {
     position: absolute;
     bottom: -130px;
     left: 0;
-    right: 0;
-    margin: auto;
+    right: 5%;
 }
 
 .owl-dots .owl-dot {
@@ -199,11 +210,11 @@ a.btn-referral:hover {
 }
 
 .owl-dots .owl-dot span {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     margin: 5px 3px;
     background: transparent;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     display: block;
     -webkit-backface-visibility: visible;
     transition: opacity 200ms ease;
@@ -250,6 +261,7 @@ a.btn-referral:hover {
 }
 #section2 .content_slide{
 	width: 80%;
+	left: 80%;
 }
 #section2 .owl-carousel .owl-item img.content_bg {
     width: 50%;
@@ -263,6 +275,7 @@ a.btn-referral:hover {
 }
 #section2 a.btn-referral{
     background-color: #000;
+    margin :0;
 }
 
 #section3 .content_block {
@@ -289,20 +302,51 @@ a.btn-referral:hover {
     left: 50%;
 }
 
-@media screen and (min-width: 500px) {
+#section4 {
+    background : url("../images/bg8.jpg");
+    background-size : cover;
+    background-position :50% 50%;
+}
+#section4 .img_line{
+    width : 30%;
+    z-index: 1;
+    top: 100px;
+    left: inherit;
+    right: 15%;
+}
+#section4 .btn_set{
+    width: 80%;
+    position : absolute;
+    bottom :30% ;
+    left : 55%;
+}
+#section4 .btn_set > a{
+    padding : 10px 5px;
+    margin : 5px;
+    background-color: #ff6400;
+    border-radius : 5px;
+    width : 50%;
+    max-width : 175px;
+    display : block;
+    float : left;
+    font-family : hel_b;
+    font-size :19px;
+    text-transform : uppercase; 
+    color : #fff;
+}
+
+@media screen and (min-width: 769px) {
 .visible-xs{
-    display: none;
+    display: none !important;
  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 769px) {
 .hidden-xs{
-    display: none;
+    display: none !important;
  }
-
-
 .section .img_line {
-    width: 75%;
+    width: 85%;
     height: 100%;
  }
 .content_slide {
@@ -319,43 +363,134 @@ a.btn-referral:hover {
     margin-top : 0;
  }
 .content-text.tab-green {
-    font-size : 15px !important;
-    padding : 2px 7px !important;
+    font-size: 14px !important;
+    padding: 2px 5px !important;
     margin-top : 0;
  }
 .owl-carousel .owl-item img.content_bg {
     width: 100%;
     height : 25%;
-    bottom : 0;
+    bottom: 0px;
     top: inherit;
  }
 #section1 .content_block {
     width: 75% !important;
  }
+#section1 .owl-dots .owl-dot span {
+    border: 1px solid #999;
+    margin : 0 7px;
+}
+#section1 .owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+    background: orange;
+}
 .img_line-mobile {
     width: 75%;
     position : absolute;
-    left: 10%;
+    left: 9%;
+    height: 100%;
+    top:0;
     z-index : 99;
  }
 
 #section2 .owl-carousel .owl-item img.content_bg {
-    width : 92%;
-    height : 32%;
+    width: 90%;
+    height: 30%;
+    left: 11.5%;
  }
 #section2 .content_block {
-    width : 70%;
+    width: 82%;
  }
 #section2 .content_slide {
     width : 100%;
+    left : 3%;
  }
 #section2 .owl-controls {
     width: 95%;
-    left : 50%;    
+    left : 50%;
+    top : 70%   
  }
 #section2 .content-title {
-    font-size : 10px;
+    font-size : 25px;
+    line-height :20px;
+    margin-top : 15px;
+}
+
+#section2 .btn-referral {
+    margin : 0;
+    font-size : 15px;
+}
+#section2 .owl-dots .owl-dot span {
+    border: 1px solid #fff;
+    margin : 0 5px 7px 10px;
+}
+#section2 .owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+    background: #fff;
+}
+
+#section3 .img_line-mobile > img {
+    max-height : 85%;
+}
+
+#section3 .img_line-mobile {
+    width : 68.5%;
+    top: -20px;
+    overflow: hidden;
+}
+
+#section3 .img_line-mobile {
+    width: 70%;
+    top: -20px;
+    left: 10%;
+    height: 95%;
+}
+#section3 .content_block {
+    width: 85%;
+    top: 67.5%;
+    left: 54%;
+}
+#section3 .owl-controls {
+    width: 97%;
+        top: 68%;
+    left: 50%;
+}
+#section3 .btn-referral {
+    font-size : 20px;
+    margin : 20px 0 0;
+}
+#section3 .owl-dots .owl-dot span {
+    border: 1px solid #fff;
+    margin : 0 5px 15px 10px;
+}
+#section3 .owl-dots .owl-dot.active span,
+.owl-dots .owl-dot:hover span {
+    background: #fff;
+}
+#section4 {
+    background : url("../images/bg8_mobile.jpg");
+    background-size : 100%;
+    background-position : left top; }
+
+#section4 .img_line{
+    width : 80%;
+    height : 70%;
+    left : 10%;
+    top : 50%;
+}
+
+#section4 .btn_set{
+    width: 80%;
+    position : absolute;
+    bottom :7.5% ;
+    left : 10%
+}
+#section4 .btn_set > a{
+    width : 40%;
+    max-width : 125px;
+    font-size :13px;
 }
 
 
+}
 

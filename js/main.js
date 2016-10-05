@@ -6,7 +6,7 @@ $(document).ready(function() {
         menu: '#menu',
         anchors: ['section', 'section02', 'section03','section04','section05'],
         sectionsColor: ['#fff', '#fff', '#FF6400', '#000', '#7E8F7C'],
-        autoScrolling: false
+        autoScrolling: true
     });
 
     $('.owl-carousel').owlCarousel({
