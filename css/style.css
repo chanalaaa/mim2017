@@ -273,6 +273,7 @@ a.btn-referral:hover {
 }
 
 #section3 .owl-controls {
+    width: 37%;
     top: 67%;
     left: 72%;
 }
