@@ -1,69 +1,70 @@
 header {
-     width:100%;
-     color: #fff;
-     background-color: #000;
-     padding: 10px 25px;
-     box-sizing: border-box;
-     position: fixed;
-     top:0;
-     z-index: 2;
- }
- 
- header img {
-     max-width: 200px;
-     height: auto;
- }
- 
- header .btn_set {
-     float: right;
-     margin-top: 12px;
- }
- 
- header .btn_set > a {
-     display: block;
-     float : left;
-     padding: 7px;
-     width : 150px;
-     color: #fff;
-     background-color: #ff6400;
-     border-radius: 5px;
-     transition: all 0.3s ease;
-     font-family: hel_b;
-     text-transform: uppercase;
-     text-align:center;
- }
-  header .btn_set > a:hover{
-     background-color: orange;
- }
-
- header .btn_set > a:first-child {
-     margin-right: 15px;
- }
-
-@media (max-width: 900px) {
-
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    padding: 10px 25px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 
-@media (max-width: 768px) {
-
+header img {
+    max-width: 200px;
+    height: auto;
 }
+
+header .btn_set {
+    float: right;
+    margin-top: 12px;
+}
+
+header .btn_set > a {
+    display: block;
+    float: left;
+    padding: 7px;
+    width: 150px;
+    color: #fff;
+    background-color: #ff6400;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-family: hel_b;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn_set > a:hover {
+    opacity: .8;
+}
+
+header .btn_set > a:first-child {
+    margin-right: 15px;
+}
+
+header .btn_set a:last-child {
+    background-color: orange;
+}
+
+@media (max-width: 900px) {}
+
+@media (max-width: 768px) {}
 
 @media screen and (max-width: 500px) {
- header img {
-    max-width: 175px;
- }
- header .btn_set {
-     float: left;
-     width: 100%;
-     margin-top: 5px;
- }
- header .btn_set > a {
-     padding: 8px;
-     width: 41%;
-     color: #fff;
-     font-size: 15px;
- }
-  header .btn_set > .active {
-     background-color:orange;
- }
+    header img {
+        max-width: 175px;
+    }
+    header .btn_set {
+        float: left;
+        width: 100%;
+        margin-top: 5px;
+    }
+    header .btn_set > a {
+        padding: 8px;
+        width: 41%;
+        color: #fff;
+        font-size: 15px;
+    }
+    header .btn_set > .active {
+        background-color: orange;
+    }
 }
