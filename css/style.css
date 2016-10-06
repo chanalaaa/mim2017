@@ -90,8 +90,9 @@ a {
 
 #section1 .owl-carousel .owl-item img.content_bg {
     width: 100%;
-    height: 100%;
+    height: auto;
     position: absolute;
+    top: initial;
     bottom: 0;
     left: 0;
     margin: auto;
@@ -306,16 +307,17 @@ a.btn-referral:hover {
     background : url("../images/bg8.jpg");
     background-size : cover;
     background-position :50% 50%;
+    overflow: hidden;
 }
 #section4 .img_line{
     width : 30%;
     z-index: 1;
-    top: 100px;
+    top: 10%;
     left: inherit;
     right: 15%;
 }
 #section4 .btn_set{
-    width: 80%;
+    width: 35%;
     position : absolute;
     bottom :30% ;
     left : 55%;
@@ -345,6 +347,10 @@ a.btn-referral:hover {
 .hidden-xs{
     display: none !important;
  }
+ .content-title {
+    font-size: 70px;
+        line-height: 60px;
+ }
 .section .img_line {
     width: 85%;
     height: 100%;
@@ -358,15 +364,9 @@ a.btn-referral:hover {
 #section1 .owl-controls {
     width: 95%;
  }
-.content-text {
-    font-size : 15px !important;
-    margin-top : 0;
- }
-.content-text.tab-green {
-    font-size: 14px !important;
-    padding: 2px 5px !important;
-    margin-top : 0;
- }
+.content-text,span.content-text.tab-green{
+        font-size: 30px
+}
 .owl-carousel .owl-item img.content_bg {
     width: 100%;
     height : 25%;
@@ -391,6 +391,7 @@ a.btn-referral:hover {
     height: 100%;
     top:0;
     z-index : 99;
+    pointer-events: none;
  }
 
 #section2 .owl-carousel .owl-item img.content_bg {
@@ -410,12 +411,12 @@ a.btn-referral:hover {
     left : 50%;
     top : 70%   
  }
-#section2 .content-title {
+/*#section2 .content-title {
     font-size : 25px;
     line-height :20px;
     margin-top : 15px;
 }
-
+*/
 #section2 .btn-referral {
     margin : 0;
     font-size : 15px;
@@ -441,7 +442,7 @@ a.btn-referral:hover {
 
 #section3 .img_line-mobile {
     width: 70%;
-    top: -20px;
+    top: 0px;
     left: 10%;
     height: 95%;
 }
@@ -494,3 +495,77 @@ a.btn-referral:hover {
 
 }
 
+
+@media screen and (max-width: 500px) {
+
+ .content-title {
+    font-size: 35px;
+      line-height: 30px;
+ }
+ .content-text {
+    font-size : 18px !important;
+    margin-top : 0;
+ }
+.content-text.tab-green {
+    font-size: 17px !important;
+    padding: 2px 5px !important;
+    margin-top : 0;
+ }
+}
+
+.animated  {
+  -webkit-animation-duration : 700 ms  ;
+  animation-duration : 700 ms  ;
+  -webkit-animation-fill-mode : both  ;
+  animation-fill-mode : both  ;
+}  
+
+.owl-animated-out {
+  z-index : 1 
+   }
+
+.owl-animated-in {
+  z-index : 0 
+   }
+
+.fadeOut  {
+  -webkit-animation-name : fadeOut  ;
+  animation-name : fadeOut  ;
+}  
+@-webkit-keyframes  fadeOut  {
+  0% {
+    opacity : 1   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
+}
+@keyframes  fadeOut  {
+  0% {
+    opacity : 1   ;
+  }  
+  100% {
+    opacity : 0   ;
+  }  
+}
+
+.fadeIn  {
+  -webkit-animation-name : fadeIn  ;
+  animation-name : fadeIn  ;
+}  
+@-webkit-keyframes  fadeIn  {
+  0% {
+    opacity : 0   ;
+  }  
+  100% {
+    opacity : 1   ;
+  }  
+}
+@keyframes  fadeIn  {
+  0% {
+    opacity : 0   ;
+  }  
+  100% {
+    opacity : 1   ;
+  }  
+}

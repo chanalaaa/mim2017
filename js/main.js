@@ -6,14 +6,14 @@ $(document).ready(function() {
         menu: '#menu',
         anchors: ['section', 'section02', 'section03','section04','section05'],
         sectionsColor: ['#fff', '#fff', '#FF6400', '#000', '#7E8F7C'],
-        autoScrolling: true
+        autoScrolling: false,
+        fitToSection: false,
     });
 
     $('.owl-carousel').owlCarousel({
         //navContainer: '#customNav',
-        smartSpeed: 250,
-        animateIn: 'fadeOut',
         animateOut: 'fadeOut',
+        animateIn: 'fadeIn',
         loop: true,
         margin: 10,
         nav: true,
