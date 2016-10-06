@@ -50,14 +50,15 @@
      padding: 10px 0;
  }
  
- footer .l-more > img {
-     padding: 3px;
-     width: 150px;
+ footer .l-more > a img {
+     max-width: 160px;
  }
-  footer .l-more > a {
+ 
+ footer .l-more > a {
      padding: 3px;
      box-sizing: border-box;
  }
+ 
  @media (max-width: 900px) {}
  
  @media (max-width: 768px) {
@@ -71,7 +72,7 @@
  
  @media screen and (max-width: 500px) {
      footer .span3 {
-        width: 100%;
+         width: 100%;
          padding-left: 2%;
          display: block;
      }
