@@ -154,7 +154,7 @@ a {
 
 span.content-text.tab-green {
     font-family: hel_bc;
-    display: inline-block;
+    display: inline;
     background-color: #009F98;
     color: #fff;
     font-size: 19px;
@@ -207,7 +207,7 @@ a.btn-referral > img {
 }
 
 .owl-prev {
-    left: 0;
+    left: 1%;
 }
 
 .owl-dots {
@@ -380,7 +380,7 @@ a.btn-referral > img {
         height: 100%;
     }
     .content_slide {
-        width: 90% !important;
+        width: 94% !important;
     }
     #section1 .content_block {
         width: 75% !important;
@@ -400,6 +400,10 @@ a.btn-referral > img {
     }
     #section1 .content_block {
         width: 75% !important;
+        top: 60%;
+    }
+    #section1 .owl-controls {
+        top: 63%;
     }
     #section1 .owl-dots .owl-dot span {
         border: 1px solid #999;
@@ -410,21 +414,25 @@ a.btn-referral > img {
         background: orange;
     }
     .img_line-mobile {
-        width: 75%;
+        width: 100%;
         position: absolute;
-        left: 9%;
+        left: 0;
         height: 100%;
         top: 0;
         z-index: 99;
         pointer-events: none;
     }
+    #section2 .img_line-mobile {
+        width: 99%;
+    }
     #section2 .owl-carousel .owl-item img.content_bg {
-        width: 90%;
-        height: 30%;
-        left: 11.5%;
+        width: 70%;
+        left: 15.5%;
     }
     #section2 .content_block {
         width: 82%;
+        top: 65%;
+        left: 54%;
     }
     #section2 .content_slide {
         width: 100%;
@@ -433,7 +441,7 @@ a.btn-referral > img {
     #section2 .owl-controls {
         width: 95%;
         left: 50%;
-        top: 70%
+        top: 65%;
     }
     /*#section2 .content-title {
     font-size : 25px;
@@ -457,20 +465,14 @@ a.btn-referral > img {
         max-height: 85%;
     }
     #section3 .img_line-mobile {
-        width: 68.5%;
-        top: -20px;
-        overflow: hidden;
-    }
-    #section3 .img_line-mobile {
-        width: 70%;
+        width: 99%;
         top: 0px;
-        left: 10%;
-        height: 95%;
+        left: 0;
     }
     #section3 .content_block {
         width: 85%;
         top: 67.5%;
-        left: 54%;
+        left: 57%;
     }
     #section3 .owl-controls {
         width: 97%;
@@ -492,7 +494,7 @@ a.btn-referral > img {
     #section4 {
         background: url("../images/bg8_mobile.jpg");
         background-size: 100%;
-        background-position: left top;
+        background-position: center center;
     }
     #section4 .img_line {
         width: 80%;
@@ -503,8 +505,8 @@ a.btn-referral > img {
     #section4 .btn_set {
         width: 80%;
         position: absolute;
-        bottom: 7.5%;
-        left: 10%
+        bottom: 2.5%;
+        left: 8%;
     }
     #section4 .btn_set > a {
         width: 40%;
