@@ -1,6 +1,15 @@
 $(document).ready(function() {
 
-
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        var footer = $("#section4");
+        var section = footer.offset();
+        if (scroll >= (section.top) - 50) {
+            $(".btn_set").addClass("btn_set-rm");
+        } else {
+            $(".btn_set").removeClass("btn_set-rm");
+        }
+    });
 
     $('#fullpage').fullpage({
         menu: '#menu',

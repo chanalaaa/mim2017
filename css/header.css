@@ -17,6 +17,7 @@ header img {
 header .btn_set {
     float: right;
     margin-top: 12px;
+    transition: all .2s ease;
 }
 
 header .btn_set > a {
@@ -32,6 +33,7 @@ header .btn_set > a {
     text-transform: uppercase;
     text-align: center;
 }
+
 
 .btn_set > a:hover {
     opacity: .8;
@@ -67,4 +69,9 @@ header .btn_set a:last-child {
     header .btn_set > .active {
         background-color: orange;
     }
+}
+
+
+header .btn_set-rm {
+    opacity: 0;
 }
